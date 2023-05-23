@@ -29,6 +29,15 @@ function init(){
     document.body.removeChild(document.getElementById("main-heading"))
 }
 
+function demo(){
+    /*const pTags=document.querySelectorAll("p.text")
+    console.log(pTags)
+    pTags[0].textContent="hello world again!!"*/
+    const pTags=document.getElementsByClassName("text")
+    console.log(pTags[0].textContent)
+}
 
-init()
+demo()
+
+//init()
 
